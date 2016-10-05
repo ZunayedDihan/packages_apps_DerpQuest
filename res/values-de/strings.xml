@@ -246,4 +246,12 @@
     <string name="pulse_ambient_light_repeat_count_title">Wiederholungszahl</string>
     <string name="pulse_ambient_light_repeat_count_summary">Stellen Sie die maximale Wiederholungszahl ein. 0 für unendlich</string>
 
+    <!-- Battery customizations -->
+    <string name="battery_style_title">Batterie-Stil</string>
+    <string name="battery_style_port">Hochformat</string>
+    <string name="battery_style_circle">Kreis</string>
+    <string name="battery_style_text">Text</string>
+    <string name="battery_percent_title">Prozent anzeigen</string>
+    <string name="battery_percent_summary">Zeigen Sie den Batterieprozentsatz immer mit dem Symbol</string>
+
 </resources>
