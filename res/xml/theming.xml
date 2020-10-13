@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--  Copyright (C) 2020 DerpFest
+
+  This program is free software: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published by
+  the Free Software Foundation, either version 3 of the License, or
+  (at your option) any later version.
+
+  This program is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+
+  You should have received a copy of the GNU General Public License
+  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ -->
+
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
+    android:title="@string/theming_title" >
+
+   <ListPreference
+       android:key="android.theme.customization.custom_overlays"
+       android:title="@string/theme_customization_systemui_title"
+       android:icon="@drawable/ic_base_theme" />
+
+    <PreferenceCategory
+        android:key="theme_customization_category_base"
+        android:title="@string/themes_base" >
+
+        <ListPreference
+            android:layout="@layout/accents_shapes_base_preview"
+            android:selectable="false" />
+
+        <com.derp.support.colorpicker.ColorPickerPreference
+            android:key="accent_color"
+            android:title="@string/accent_color"
+            android:summary="@string/accent_summary"
+            android:defaultValue="0x0086FA"
+            android:persistent="false"
+            android:icon="@drawable/ic_accent_picker" />
+
+        <ListPreference
+            android:key="android.theme.customization.accent_color"
+            android:title="@string/accent_prebuilt"
+            android:summary="@string/accent_prebuilt_summary" />
+
+        <ListPreference
+            android:key="android.theme.customization.adaptive_icon_shape"
+            android:title="@string/theme_customization_icon_shape_title"
+            android:icon="@drawable/ic_icon_shape" />
+
+        <ListPreference
+            android:key="android.theme.customization.icon_pack"
+            android:title="@string/theme_customization_sysui_icon_title"
+            android:shouldDisableView="false"
+            android:icon="@drawable/ic_stat_icons" />
+
+        <ListPreference
+            android:layout="@layout/fonts_base_preview"
+            android:selectable="false" />
+
+        <ListPreference
+            android:key="android.theme.customization.font"
+            android:title="@string/theme_customization_font_title"
+            android:icon="@drawable/ic_font"/>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
+

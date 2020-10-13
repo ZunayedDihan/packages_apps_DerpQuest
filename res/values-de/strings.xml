@@ -26,6 +26,8 @@
     <string name="derpquest_settings_title">Kategorien</string>
 
     <!-- DerpFest categories -->
+    <string name="theming_title">Theming</string>
+    <string name="theming_summary">Farben, Schriftarten und Symbolformen</string>
     <string name="statusbar_bar_title">Statusleiste</string>
     <string name="statusbar_bar_summary">Passe diverse Sachen an der Statusleiste an</string>
     <string name="notification_title">Benachrichtigung</string>

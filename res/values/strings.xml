@@ -26,6 +26,8 @@
     <string name="derpquest_settings_title">Categories</string>
 
     <!-- DerpFest categories -->
+    <string name="theming_title">Theming</string>
+    <string name="theming_summary">Accents, fonts and icon shapes</string>
     <string name="statusbar_bar_title">Statusbar</string>
     <string name="statusbar_bar_summary">Adjust various statusbar elements</string>
     <string name="notification_title">Notification</string>
@@ -175,5 +177,19 @@
     <string name="torch_long_press_power_timeout_2min">2 minutes</string>
     <string name="torch_long_press_power_timeout_5min">5 minutes</string>
     <string name="torch_long_press_power_timeout_10min">10 minutes</string>
+
+    <!-- Theming titles -->
+    <string name="themes_base">System Customisation</string>
+    <string name="theme_customization_sysui_icon_title">QS icons</string>
+    <string name="theme_customization_android_icon_title">StatusBar icons</string>
+    <string name="theme_customization_settings_icon_title">Settings icons</string>
+    <string name="theme_customization_systemui_title">Base Theme</string>
+    <string name="themes_color">Theming</string>
+    <string name="themes_summary">Theming section</string>
+    <string name="accent_color">Accent color - RGB picker</string>
+    <string name="accent_summary">Choose your own accent!</string>
+    <string name="accent_prebuilt">Accent color - Prebuilt</string>
+    <string name="accent_prebuilt_summary">Pick your favorite accent color</string>
+    <string name="default_string">Default</string>
 
 </resources>
